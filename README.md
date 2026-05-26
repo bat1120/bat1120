@@ -61,11 +61,23 @@
 - 🔗 [Repository](https://github.com/Himidea-AI/Final_Project)
 <!-- TODO: 본인이 맡은 역할(담당 모듈)과 정량 지표(예: 예측 정확도/MAE)를 추가하면 훨씬 강력해집니다. -->
 
-### 📰 AI 뉴스 요약기
-LLM을 활용해 뉴스 기사를 자동으로 요약하는 프로젝트입니다.
-- **기술**: Python, LLM API
+### 📰 Self-RAG 뉴스 큐레이션 에이전트
+멀티 소스 뉴스를 수집·재랭킹하고, critic LLM이 결과 품질을 채점해 부족하면 다시 검색하는 Self-RAG 에이전트입니다.
+- **접근**: LangGraph 병렬 멀티소스 수집 + OpenAI 임베딩 재랭킹 + critic 재시도(Self-RAG) + ReAct 에이전트
+- **기술**: Python, LangGraph, OpenAI, Flask, Discord
 - 🔗 [Repository](https://github.com/HiMedia13/ai_news_summarizer)
-<!-- TODO: 한 줄 요약/사용 모델/결과 예시를 채우세요. -->
+
+### 🎩 마술 영상 분석기 (magic-analyzer)
+카드·동전 마술 영상에서 손을 추적해 '수상한 순간'(팜·전달·급동작)을 타임라인으로 짚어주는 분석 도구입니다.
+- **접근**: MediaPipe 손 추적 + 신호 점수화/NMS 봉우리 탐지 + ReAct 도구 호출 에이전트(OpenAI 비전) + 기법 라이브러리 매칭(RAG)
+- **기술**: Python, MediaPipe, OpenCV, LangGraph, OpenAI, Flask
+- 🔗 [Repository](https://github.com/HiMedia13/magic-analyzer)
+
+### 📸 사진 자동 분류 PWA (photo-classifier-pwa)
+휴대폰 사진을 AI로 설명·임베딩한 뒤 군집화해 자동으로 앨범을 만들어주는 PWA입니다.
+- **접근**: gpt-4o Vision 설명 → text-embedding-3-small 임베딩 → HDBSCAN 자동 군집 → 클러스터 이름 자동 부여
+- **기술**: Python, Flask, OpenAI Vision, HDBSCAN, PWA
+- 🔗 [Repository](https://github.com/bat1120/photo-classifier-pwa)
 
 ### 🧪 AI 기능 통합 실습 — LLM · 컴퓨터 비전 · OCR
 여러 AI 기능을 직접 구현하며 분야별로 익힌 개인 실습입니다.

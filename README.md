@@ -99,14 +99,15 @@
 
 ---
 
-## 📊 GitHub Stats
+## 🔗 Connect
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bat1120&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bat1120&layout=compact&theme=default&hide_border=true&langs_count=8" height="165"/>
+  <a href="https://github.com/bat1120"><img src="https://img.shields.io/badge/GitHub-bat1120-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <img src="https://img.shields.io/github/followers/bat1120?style=flat-square&logo=github&label=Followers&color=181717"/>
+  <a href="mailto:bat981120@gmail.com"><img src="https://img.shields.io/badge/Email-bat981120@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
-<sub>※ 프로젝트가 여러 계정(<code>bat1120</code> · <code>HiMedia13</code> · <code>Himidea-AI</code>)에 흩어져 있어, 위 통계는 활동의 일부만 보여줍니다.</sub>
+<p align="center"><sub>※ 활동 내역은 아래 contribution 그래프에서 확인하실 수 있어요. (프로젝트가 <code>bat1120</code> · <code>HiMedia13</code> · <code>Himidea-AI</code>에 나뉘어 있습니다)</sub></p>
 
 ---
 
